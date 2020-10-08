@@ -1,0 +1,138 @@
+.slick-slide {
+  margin: 100px 20px;
+
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-arrow{
+    z-index: 2;
+}
+.slick-prev{
+    left: 50px;
+}
+.slick-next{
+    right: 50px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+
+}
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: 1;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+.slick-dots{
+    bottom: 30px;
+}
+.slick-dotted.slick-slider{
+    margin-bottom: 0;
+}
+/*reviews slider*/
+.reviews-slider {
+    width: 100%;
+    margin: 0px auto;
+    z-index: 1;
+}
+.slick-initialized{
+    visibility: visible;
+}
+
+
+/*why us slider*/
+.why-us-content-small-slider.slick-dotted.slick-slider{
+    margin-bottom: -10%;
+}
+.why-us-content-small-slider .slick-dots li button{
+    background: #fff;
+    border-radius: 50%;
+}
+.why-us-content-small-slider .slick-dots{
+    bottom: 80px;
+}
+
+
+/*followers slider*/
+.followers-slider {
+    width: 100%;
+    margin: 0px auto;
+    z-index: 1;
+    margin-top: -5%;
+    margin-bottom: -5%;
+}
+
+.followers-slider-item{
+    width: 19rem;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: .375rem;
+    box-shadow: 0 .1875rem .375rem 0 hsla(0,0%,67.8%,.28);
+    z-index: 2;
+}
+
+.followers-slider-item-image img{
+    width: 100%;
+}
+
+.followers-slider-item-content{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+
+.user-img img{
+    border-radius: 50%;
+    max-width: 50px;
+}
+.user-details {
+    margin-left: 1rem;
+}
+.user-details p{
+    margin-bottom: 0.2rem;
+    font-size: 0.7em;
+}
+
+.insta-logo{
+    z-index: 3;
+}
+
+.insta-logo img{
+    width: 1.25rem;
+    right: 1rem;
+    top: 1rem;
+    position: absolute;
+}
+
+/* testimonial slider*/
+.testimonials-slider {
+    width: 100%;
+    margin: 100px auto;
+
+}
+.testimonials-para p{
+    font-size: 1.75rem;
+    color: rgb(30, 48, 110);
+}
+
+.testimonials-brand-image{
+    margin: 2rem;
+}
+.testimonials-brand-image img{
+    max-height: 2.5rem;
+}
+.testimonials-bottom{
+    padding: 1rem;
+}
