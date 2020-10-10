@@ -98,4 +98,48 @@ $(document).on("ready", function () {
         slidesToShow: 1,
         slidesToScroll: 1,
     });
-
+    $(".reviews-slider").slick({
+        dots: true,
+        arrows: true,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 700,
+        responsive: [
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                },
+            },
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                },
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ],
+    });
+    $(".why-us-content-small-slider").slick({
+        dots: true,
+        arrows: false,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    });
+});
