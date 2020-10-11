@@ -954,16 +954,3 @@ p {
         padding-top: 2rem;
     }
 }
-
-@media only screen and (max-width: 375px) {
-    .carousel-caption h1 {
-        font-size: 0.8rem;
-    }
-    .carousel-caption p {
-        margin-bottom: 0.8rem;
-    }
-    .carousel-caption button {
-        padding: 5px;
-        width: 150px;
-    }
-}
